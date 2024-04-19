@@ -7,6 +7,14 @@ machine learning model, python, SQLite, SQL
 
 # **Methodology**
 
+- Dataset pulled from [Fragrantica.com](https://www.fragrantica.com/)
+
+- Datascraping was already done on this github called [Perfume_Designer_App](https://github.com/sir-omoreno/perfume_designer_app)
+
+  - Datascraping at Fragrantica could have taken up the entire timeframe for this project due to inconsistencies of website/forum
+
+    - Tried Parsehub, creating a request/html.parser/beautiful soup script, a scrapy.spider crawl, selenium, splinter
+
 # **Analysis**
 
 # **Recommendations**
