@@ -3,13 +3,15 @@ machine learning model, python, SQLite, SQL
 
 # **Introduction Summary**
 
-# **Project Overview**
+In our perfume project, we've developed two machine models: one for categorizing scents and another for recommending perfumes based on user preferences. Accuracy is our top priority. With these models, we aim to make navigating the world of fragrances easier and more enjoyable for everyone.
+
+Let's explore scent popularity and combinations together. Maybe we can find the perfect perfume just for you! Join us on this olfactory journey of discovery and delight.
 
 # **Methodology**
 
 - Dataset pulled from [Fragrantica.com](https://www.fragrantica.com/)
 
-- Datascraping was already done on this github called [Perfume_Designer_App](https://github.com/sir-omoreno/perfume_designer_app)
+- Webscraping was already done on this github called [Perfume_Designer_App](https://github.com/sir-omoreno/perfume_designer_app)
 
   - Datascraping at Fragrantica could have taken up the entire timeframe for this project due to inconsistencies of website/forum
 
