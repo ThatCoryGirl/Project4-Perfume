@@ -47,7 +47,7 @@ The problems we are trying to solve are two-fold.
 
     - Tried [Parsehub](https://www.parsehub.com/) app
     
-    - Implemented `request` `html.parser` `beautifulsoup` `scrapy.spider` `selenium` `splinter`
+    - Tried implimenting `request` `html.parser` `beautifulsoup` `scrapy.spider` `selenium` `splinter`
 
 - Webscraping was already done on this github: [Perfume_Designer_App](https://github.com/sir-omoreno/perfume_designer_app)
 
