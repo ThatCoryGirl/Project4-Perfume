@@ -79,11 +79,19 @@ Let's explore scent popularity and combinations together. Maybe we can find the 
 
 Unsupervised Cluster Model
 
-We determined that the best value for k is 4 based on this elbow curve.
+We determined that the best value for k is 4 based on this elbow curve
 
-The random_state = 42 because 42 is the answer to the meaning of life, the universe, and everything.
+![originalelbowcurve](https://github.com/ThatCoryGirl/Project4-Perfume/assets/146380542/5cb6bafd-957b-4627-bc15-d0d095e28c64)
 
-We fit the K-Means model using scaled data.
+The random_state = 42 because 42 is the answer to the meaning of life, the universe, and everything
+
+![Screenshot 2024-04-20 184616](https://github.com/ThatCoryGirl/Project4-Perfume/assets/146380542/94450b83-5eb6-4cbe-bbd0-fefdd01f2178)
+
+We fit the K-Means model using scaled data
+
+Here we have the original scatter plot with predicted clusters:
+
+![originalscatterplot](https://github.com/ThatCoryGirl/Project4-Perfume/assets/146380542/c5c681ae-7b94-4feb-9933-9fb2c9a932c9)
 
 For the PCA model the n_components were set to 3. After fitting and tranforming the explained variance rations were:
 
@@ -98,6 +106,12 @@ PCA3: 0.2539
 Total Explained Variance: 1.0000
 
 The best value for k when using the PCA data is also 4.
+
+![pcaelbowcurve](https://github.com/ThatCoryGirl/Project4-Perfume/assets/146380542/c195ed6a-6077-428a-a1e5-2e844885a36f)
+
+Here is the PCA scatter plot with predicted clusters:
+
+![pcascatterplot](https://github.com/ThatCoryGirl/Project4-Perfume/assets/146380542/8f81a669-1125-4ba3-ba68-265dfd78138b)
 
 
 # **Recommendations**
