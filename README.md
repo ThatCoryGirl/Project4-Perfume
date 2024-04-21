@@ -103,7 +103,7 @@ Here we have the original scatter plot with predicted clusters:
 
 ![originalscatterplot](https://github.com/ThatCoryGirl/Project4-Perfume/assets/146380542/c5c681ae-7b94-4feb-9933-9fb2c9a932c9)
 
-For the PCA model the **n_components** were set to 3. After fitting and tranforming the explained variance rations were:
+For the PCA model the **n_components** were set to 3. After fitting and tranforming the explained variance ratios were:
 
 Explained Variance Ratios:
 
