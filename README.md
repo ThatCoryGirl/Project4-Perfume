@@ -1,9 +1,17 @@
 # Project4-Perfume
-machine learning model, python, SQLite, SQL
+technologies used: machine learning model, python, pandas, hvplot,pandas, sqlite3, ast,  SQLite, SQL, Scikit-learn, sklearn.cluster, KMeans, sklearn.decomposition, PCA, StandardScaler, Tableau, Canva  
 
 # **Introduction Summary**
 
 In our perfume project, we've been experimenting with machine models to understand scent categories and personalize recommendations. We're prioritizing exploration over accuracy, aiming to uncover new scent combinations and trends. Join us as we venture into the unpredictable world of fragrance, pushing the boundaries of what's possible with machine learning. Together, let's discover the unexpected and redefine how we approach perfume.
+
+# **Problem Worth Solving**
+
+The problems we are trying to solve are two-fold.
+
+- The first problem is can the perfume dataset be used to create a clustering model for the scents with accuracy?
+
+- The other problem is can we recommend a perfume for you and me or can we determine if you like a perfume brand based on your inputs (using a chatbot)? 
 
 # **Methodology**
 
