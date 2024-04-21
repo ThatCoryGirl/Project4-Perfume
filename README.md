@@ -35,7 +35,7 @@ In our perfume project, we've been experimenting with machine models to understa
 
     - Tried Parsehub app
     
-    - Implemented request/html.parser, beautifulsoup, scrapy.spider, selenium, splinter
+    - Implemented `request` `html.parser` `beautifulsoup` `scrapy.spider` `selenium` `splinter`
 
 - Webscraping was already done on this github: [Perfume_Designer_App](https://github.com/sir-omoreno/perfume_designer_app)
 
@@ -53,23 +53,23 @@ In our perfume project, we've been experimenting with machine models to understa
 
 - Column Removal
 
-    - Unnecessary columns were removed including: image for_gender description gender_vote price value top notes middle notes base notes
+    - Unnecessary columns were removed including: **image**, **for_gender**, **description**, **gender_vote**, **price value**, **top notes**, **middle notes**, **base notes**
  
-    - We felt that useing the main_accord column would be better for our model because top notes middle notes and base notes had more values represented
+    - We felt that useing the **main_accord** column would be better for our model because **top notes**, **middle notes**, and **base notes** had more values represented
  
 - Preprocessing
 
     - Perfumes that had a rating below 3.59 and had < or = to 100 votes were removed from the dataset for enhanced accuracy
 
-    - main accords was divided for each perfume and a column was created for the scent_strength
+    - **main accords** was divided for each perfume and a column was created for the **scent_strength**
 
     - The perfume entries were duplicated based on the number of scents in each one
  
-    - Data with NaN values were removed
+    - Data with **NaN** values were removed
  
     - Ended up with 2655 entries
  
-    - Merged name and company columns into one as to lessen the amount of string columns
+    - Merged **name** and **company** columns into one as to lessen the amount of string columns
 
 # **Analysis**
 
@@ -77,11 +77,11 @@ In our perfume project, we've been experimenting with machine models to understa
 
 Unsupervised Cluster Model
 
-We determined that the best value for k is 4 based on this elbow curve
+We determined that the best value for `k` is 4 based on this elbow curve
 
 ![originalelbowcurve](https://github.com/ThatCoryGirl/Project4-Perfume/assets/146380542/5cb6bafd-957b-4627-bc15-d0d095e28c64)
 
-The random_state = 42 because 42 is the answer to the meaning of life, the universe, and everything
+The **random_state** = 42 because 42 is the answer to the meaning of life, the universe, and everything
 
 ![Screenshot 2024-04-20 184616](https://github.com/ThatCoryGirl/Project4-Perfume/assets/146380542/94450b83-5eb6-4cbe-bbd0-fefdd01f2178)
 
@@ -91,7 +91,7 @@ Here we have the original scatter plot with predicted clusters:
 
 ![originalscatterplot](https://github.com/ThatCoryGirl/Project4-Perfume/assets/146380542/c5c681ae-7b94-4feb-9933-9fb2c9a932c9)
 
-For the PCA model the n_components were set to 3. After fitting and tranforming the explained variance rations were:
+For the PCA model the **n_components** were set to 3. After fitting and tranforming the explained variance rations were:
 
 Explained Variance Ratios:
 
@@ -103,7 +103,7 @@ PCA3: 0.2539
 
 Total Explained Variance: 1.0000
 
-The best value for k when using the PCA data is also 4.
+The best value for `k` when using the PCA data is also 4.
 
 ![pcaelbowcurve](https://github.com/ThatCoryGirl/Project4-Perfume/assets/146380542/c195ed6a-6077-428a-a1e5-2e844885a36f)
 
@@ -115,24 +115,24 @@ Here is the PCA scatter plot with predicted clusters:
 
 Decision Tree ChatBot
 
-We were unsuccessful at completing a decision tree chatbot with our dataset. We had too many strings and our dataset became too convoluted as we used OneHot Encoder and LabelCoder. Most machine models use integers and many use very clear X and y variables. We recleaned our dataframe such that the scents were each divided into their own columns with 0's and 1's to indicate if a perfume had that scent in it or not. This in turn created a chaotic mess of machine models (62) each with a different accuracy percentage ranging from 52% to 100%.
+We were unsuccessful at completing a decision tree chatbot with our dataset. We had too many strings and our dataset became too convoluted as we used `OneHot Encoder` and `LabelCoder`. Most machine models use integers and many use very clear `X` and `y` variables. We recleaned our dataframe such that the scents were each divided into their own columns with 0's and 1's to indicate if a perfume had that scent in it or not. This in turn created a chaotic mess of machine models (62) each with a different accuracy percentage ranging from 52% to 100%.
 
 ![dftransformation](https://github.com/ThatCoryGirl/Project4-Perfume/assets/146380542/2871a4cc-a60e-43d4-9a8b-d87b4ad8ebc3)
 
-To further analyze our data we were able to create a [Tableau](https://public.tableau.com/app/profile/katie.starnes/viz/PerfumeWIP/PerfumeDashboard?publish=yes) dashboard. Here's a preview but please feel free to follow the link to the actual dash.
-
 *Part III*
+
+To further analyze our data we were able to create a [Tableau](https://public.tableau.com/app/profile/katie.starnes/viz/PerfumeWIP/PerfumeDashboard?publish=yes) dashboard. Here's a preview but please feel free to follow the link to the actual dash.
 
 Interactive Visualization to break down the Top 100 perfumes from our dataset
 
 ![Perfume Dashboard](https://github.com/ThatCoryGirl/Project4-Perfume/assets/146380542/0bbbab85-faed-4350-aa54-18d8524026af)
 
-This dash shows the most popular scents and the branded perfumes that include them. You can choose which perfume you want in the middle of the dashboard and it will break down all of the details about that specific perfume in each visualization. It will show you the rating, vote counts, gender, and fragrances associated with each perfume.
+This dash shows the most popular scents and the branded perfumes that include them. You can choose which perfume you want in the middle of the dashboard and it will break down all of the details about that specific perfume in each visualization. It will show you the **rating**, **vote counts**, **gender**, and **fragrances** associated with each perfume.
 
 
 # **Recommendations & Conclusions**
 
-We recommend that a lot more time be dedicated to dataset scraping and machine model research. Our dataset did not have enough numerical/integer values. We cleaned the data in a way that it did not cater to one of our machine models. It would have been a good idea to explore scents based on gender selection but this was already done in the github mentioned above. Having a dataset with a column that identified two variables would be best either yes/no or 1/0. We could have focused more on reviews. And dates could have been useful for our data as we didn't have any.
+We recommend that a lot more time be dedicated to dataset scraping and machine model research. Our dataset did not have enough numerical/integer values. We cleaned the data in a way that it did not cater to one of our machine models. It would have been a good idea to explore scents based on gender selection but this was already done in the github cited above. Having a dataset with a column that identified two variables would be best either yes/no or 1/0. We could have focused more on reviews. And dates could have been useful for our data as we didn't have any.
 
 However our unsupervised clustering model worked pretty well with the data. It was surprising how much the data changed with the PCA transformation. We were experimenting with the idea of 5 clusters instead of 4 but the accuracy messed up with 5 so we stuck with 4.
 
@@ -152,4 +152,4 @@ Instructor:
 
 Suggestions for datacleaning [.melt()](https://www.geeksforgeeks.org/python-pandas-melt/) and .apply() from Stephen Greenberg and Jesus Parra
 
-Used import ast for dataframe transformation from [docs.python.org](https://docs.python.org/3/library/ast.html)
+Used `import ast` for dataframe transformation from [docs.python.org](https://docs.python.org/3/library/ast.html)
