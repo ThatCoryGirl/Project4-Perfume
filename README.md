@@ -59,7 +59,7 @@ The problems we are trying to solve are two-fold.
 
 - SQLite was utilized for dataset storage and created using Jupyter Notebook
 
-  - An uncleaned CSV and JSON file can be uploaded from the Resources folder of the dataset
+  - An uncleaned CSV and JSON file can be uploaded from the Resources folder from this repository.
 
 *Data Cleaning*
 
