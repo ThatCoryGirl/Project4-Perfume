@@ -113,14 +113,28 @@ Here is the PCA scatter plot with predicted clusters:
 
 *Part II*
 
+Decision Tree ChatBot
+
 We were unsuccessful at completing a decision tree chatbot with our dataset. We had too many strings and our dataset became too convoluted as we used OneHot Encoder and LabelCoder. Most machine models use integers and many use very clear X and y variables. We recleaned our dataframe such that the scents were each divided into their own columns with 0's and 1's to indicate if a perfume had that scent in it or not. This in turn created a chaotic mess of machine models (62) each with a different accuracy percentage ranging from 52% to 100%.
 
 ![dftransformation](https://github.com/ThatCoryGirl/Project4-Perfume/assets/146380542/2871a4cc-a60e-43d4-9a8b-d87b4ad8ebc3)
 
+To further analyze our data we were able to create a [Tableau](https://public.tableau.com/app/profile/katie.starnes/viz/PerfumeWIP/PerfumeDashboard?publish=yes) dashboard. Here's a preview but please feel free to follow the link to the actual dash.
 
-# **Recommendations**
+*Part III*
 
-# **Conclusion**
+Interactive Visualization to break down the Top 100 perfumes from our dataset
+
+![Perfume Dashboard](https://github.com/ThatCoryGirl/Project4-Perfume/assets/146380542/0bbbab85-faed-4350-aa54-18d8524026af)
+
+This dash shows the most popular scents and the branded perfumes that include them. You can choose which perfume you want in the middle of the dashboard and it will break down all of the details about that specific perfume in each visualization. It will show you the rating, vote counts, gender, and fragrances associated with each perfume.
+
+
+# **Recommendations & Conclusions**
+
+We recommend that a lot more time be dedicated to dataset scraping and machine model research. Our dataset did not have enough numerical/integer values. We cleaned the data in a way that it did not cater to one of our machine models. It would have been a good idea to explore scents based on gender selection but this was already done in the github mentioned above. Having a dataset with a column that identified two variables would be best either yes/no or 1/0. We could have focused more on reviews. And dates could have been useful for our data as we didn't have any.
+
+However our unsupervised clustering model worked pretty well with the data. It was surprising how much the data changed with the PCA transformation. We were experimenting with the idea of 5 clusters instead of 4 but the accuracy messed up with 5 so we stuck with 4.
 
 # **Citations**
 
