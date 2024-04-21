@@ -45,7 +45,7 @@ The problems we are trying to solve are two-fold.
 
 - Webscraping at Fragrantica could have taken up the entire timeframe for this project due to inconsistencies of website/forum
 
-    - Tried Parsehub app
+    - Tried [Parsehub](https://www.parsehub.com/) app
     
     - Implemented `request` `html.parser` `beautifulsoup` `scrapy.spider` `selenium` `splinter`
 
