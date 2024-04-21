@@ -113,6 +113,9 @@ Here is the PCA scatter plot with predicted clusters:
 
 ![pcascatterplot](https://github.com/ThatCoryGirl/Project4-Perfume/assets/146380542/8f81a669-1125-4ba3-ba68-265dfd78138b)
 
+*Part II*
+
+We were unsuccessful at completing a decision tree chatbot with our dataset. We had too many strings and our dataset became too convoluted as we used OneHot Encoder and LabelCoder. Most machine models use integers and many use very clear X and y variables. We recleaned our dataframe such that the scents were each divided into their own columns with 0's and 1's to indicate if a perfume had that scent in it or not. This in turn created a chaotic mess of machine models (62) each with a different accuracy percentage ranging from 52% to 100%.
 
 # **Recommendations**
 
