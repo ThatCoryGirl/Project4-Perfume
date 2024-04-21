@@ -3,9 +3,7 @@ machine learning model, python, SQLite, SQL
 
 # **Introduction Summary**
 
-In our perfume project, we've developed two machine models: one for categorizing scents and another for recommending perfumes based on user preferences. Accuracy is our top priority. With these models, we aim to make navigating the world of fragrances easier and more enjoyable for everyone.
-
-Let's explore scent popularity and combinations together. Maybe we can find the perfect perfume just for you! Join us on this olfactory journey of discovery and delight.
+In our perfume project, we've been experimenting with machine models to understand scent categories and personalize recommendations. We're prioritizing exploration over accuracy, aiming to uncover new scent combinations and trends. Join us as we venture into the unpredictable world of fragrance, pushing the boundaries of what's possible with machine learning. Together, let's discover the unexpected and redefine how we approach perfume.
 
 # **Methodology**
 
