@@ -7,6 +7,8 @@ In our perfume project, we've been experimenting with machine models to understa
 
 # **Methodology**
 
+**For more details and documentation on our process, please visit the [Projects Tab](https://github.com/users/ThatCoryGirl/projects/3) associated with this project**
+
 *Dataset*
 
 - Dataset pulled from [Fragrantica.com](https://www.fragrantica.com/)
