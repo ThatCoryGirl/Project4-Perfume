@@ -1,4 +1,4 @@
-# Project4-Perfume
+# Project4 The *Essence* of Data
 technologies used: machine learning model, python, pandas, hvplot,pandas, sqlite3, ast,  SQLite, SQL, Scikit-learn, sklearn.cluster, KMeans, sklearn.decomposition, PCA, StandardScaler, Tableau, Canva  
 
 # **Introduction Summary**
