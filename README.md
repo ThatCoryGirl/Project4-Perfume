@@ -137,7 +137,7 @@ To further analyze our data we were able to create a [Tableau](https://public.ta
 
 Interactive Visualization to break down the Top 100 perfumes from our dataset
 
-![Perfume Dashboard](https://github.com/ThatCoryGirl/Project4-Perfume/assets/146380542/0bbbab85-faed-4350-aa54-18d8524026af)
+![Perfume Dashboard](Resources/Images/PerfumeDashboard.png)
 
 This dash shows the most popular scents and the branded perfumes that include them. You can choose which perfume you want in the middle of the dashboard and it will break down all of the details about that specific perfume in each visualization. It will show you the **rating**, **vote counts**, **gender**, and **fragrances** associated with each perfume.
 
