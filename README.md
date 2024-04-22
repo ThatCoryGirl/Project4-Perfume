@@ -101,7 +101,7 @@ We fit the K-Means model using scaled data
 
 Here we have the original scatter plot with predicted clusters:
 
-![originalscatterplot](https://github.com/ThatCoryGirl/Project4-Perfume/assets/146380542/c5c681ae-7b94-4feb-9933-9fb2c9a932c9)
+![originalscatterplot](Resources/Images/originalscatterrevamp.png)
 
 For the PCA model the **n_components** were set to 3. After fitting and tranforming the explained variance ratios were:
 
@@ -121,7 +121,7 @@ The best value for `k` when using the PCA data is also 4.
 
 Here is the PCA scatter plot with predicted clusters:
 
-![pcascatterplot](https://github.com/ThatCoryGirl/Project4-Perfume/assets/146380542/8f81a669-1125-4ba3-ba68-265dfd78138b)
+![pcascatterplot](Resources/Images/pcascatterrevamp.png)
 
 *Part II*
 
@@ -133,7 +133,7 @@ We were unsuccessful at completing a decision tree chatbot with our dataset. We 
 
 *Part III*
 
-To further analyze our data we were able to create a [Tableau](https://public.tableau.com/app/profile/katie.starnes/viz/PerfumeWIP/PerfumeDashboard?publish=yes) dashboard. Here's a preview but please feel free to follow the link to the actual dash.
+To further analyze our data we were able to create a [Tableau](https://public.tableau.com/views/TheEssenceofDataAnalyzingPerfumePreferences/PerfumeDashboard?:language=en-US&publish=yes&:sid=&:display_count=n&:origin=viz_share_link) dashboard. Here's a preview but please feel free to follow the link to the actual dash.
 
 Interactive Visualization to break down the Top 100 perfumes from our dataset
 
