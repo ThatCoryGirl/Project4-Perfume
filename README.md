@@ -11,7 +11,7 @@ We invite you to take a look at our [Canva Presentation](https://www.canva.com/d
 
 The problems we are trying to solve are two-fold.
 
-- The first problem is can we create an unsupervised clustering machine model that performs with accuracy?
+- The first problem is can we create an unsupervised clustering machine model that performs with 100% Total Explained Variance?
 
 - The other problem is can we recommend a perfume for you and/or can we predict if you like a perfume brand based on your inputs (using a chatbot)? 
 
@@ -93,7 +93,7 @@ We determined that the best value for `k` is 4 based on this elbow curve
 
 ![originalelbowcurve](https://github.com/ThatCoryGirl/Project4-Perfume/assets/146380542/5cb6bafd-957b-4627-bc15-d0d095e28c64)
 
-The **random_state** = 42 because 42 is the answer to the meaning of life, the universe, and everything
+The **random_state** = 42 because 42 is the answer to the meaning of life, the universe, and everything ((Hitchhiker's Guide to the Galaxy))
 
 ![Screenshot 2024-04-20 184616](https://github.com/ThatCoryGirl/Project4-Perfume/assets/146380542/94450b83-5eb6-4cbe-bbd0-fefdd01f2178)
 
@@ -154,7 +154,7 @@ However our unsupervised clustering model worked pretty well with the data. It w
 - Regarding the clustering model, dropping the 'scent' feature resulted in duplicate rows. It would be beneficial to explain the rationale behind dropping this feature and why it's advantageous, even if it leads to duplication in the data. Alternatively, you could remove duplicate rows to improve clustering.
 - In the clustering model, K-Means was applied twice, resulting in labels 'cluster' and 'predicted_cluster'.
 - Lastly, consider renaming 'Clean(er) Decision Tree.ipynb' to simply 'Decision Tree.ipynb' to maintain a cleaner GitHub repository.
-- Total Explained Variance and accuracy are not interchangeable descriptions for unsupervised machine modeling, change verbiage.
+- **Total Explained Variance** and *accuracy* are not interchangeable descriptions for unsupervised machine modeling, change verbiage.
 
 # **Citations**
 
