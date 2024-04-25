@@ -155,6 +155,7 @@ However our unsupervised clustering model worked pretty well with the data. It w
 - In the clustering model, K-Means was applied twice, resulting in labels 'cluster' and 'predicted_cluster'.
 - Lastly, consider renaming 'Clean(er) Decision Tree.ipynb' to simply 'Decision Tree.ipynb' to maintain a cleaner GitHub repository.
 - **Total Explained Variance** and *accuracy* are not interchangeable descriptions for unsupervised machine modeling, change verbiage.
+- Create scent ratios based on the scent_strength
 
 # **Citations**
 
