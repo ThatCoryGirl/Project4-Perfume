@@ -148,6 +148,14 @@ We recommend that a lot more time be dedicated to dataset scraping and machine m
 
 However our unsupervised clustering model worked pretty well with the data. It was surprising how much the data changed with the PCA transformation. We were experimenting with the idea of 5 clusters instead of 4 but the accuracy messed up with 5 so we stuck with 4.
 
+# **Critiques & Suggestions**
+
+- Use a relative path instead of absolute path
+- Regarding the clustering model, dropping the 'scent' feature resulted in duplicate rows. It would be beneficial to explain the rationale behind dropping this feature and why it's advantageous, even if it leads to duplication in the data. Alternatively, you could remove duplicate rows to improve clustering.
+- In the clustering model, K-Means was applied twice, resulting in labels 'cluster' and 'predicted_cluster'.
+- Lastly, consider renaming 'Clean(er) Decision Tree.ipynb' to simply 'Decision Tree.ipynb' to maintain a cleaner GitHub repository.
+- Total Explained Variance and accuracy are not interchangeable descriptions for unsupervised machine modeling, change verbiage.
+
 # **Citations**
 
 Students: 
