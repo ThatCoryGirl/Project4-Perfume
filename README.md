@@ -152,8 +152,11 @@ However our unsupervised clustering model worked pretty well with the data. It w
 
 - Use a relative path instead of absolute path
 - Regarding the clustering model, dropping the 'scent' feature resulted in duplicate rows. It would be beneficial to explain the rationale behind dropping this feature and why it's advantageous, even if it leads to duplication in the data. Alternatively, you could remove duplicate rows to improve clustering.
+    - We dropped the 'scent' feature resulting in multiple entries for each perfume so that we could isolate each scent by itself but maintain that it was from a certain perfume.
 - In the clustering model, K-Means was applied twice, resulting in labels 'cluster' and 'predicted_cluster'.
+    - We accidentally applied Kmeans twice in two different ways. The second application has been removed resulting in no change to the plots.
 - Lastly, consider renaming 'Clean(er) Decision Tree.ipynb' to simply 'Decision Tree.ipynb' to maintain a cleaner GitHub repository.
+    - This has been updated.
 - **Total Explained Variance** and *accuracy* are not interchangeable descriptions for unsupervised machine modeling, change verbiage.
 - Create scent ratios based on the scent_strength
 
